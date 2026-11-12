@@ -1,0 +1,5 @@
+# Installed by the launchers into the .venv folder. Needs Python 3.12, 3.13 or 3.14.
+faster-whisper>=1.1,<2
+# PyAV 19 removed an option that faster-whisper still uses ("metadata_errors").
+av>=12,<19
+numpy

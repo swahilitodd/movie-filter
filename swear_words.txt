@@ -1,0 +1,111 @@
+# Words to filter. Edit freely: one entry per line, case doesn't matter.
+#   word      matches that exact word only ("ass" does not match "class")
+#   word*     matches anything starting with it (fuck* = fucking, fucker...)
+#   *word     matches anything ending with it
+#   two words matches the phrase, also when hyphenated or split across lines
+#   !word     never filter this (!shitake protects it from shit*)
+# Lines beginning with # are ignored.
+
+# --- Strong ---
+fuck*
+*fuck
+*fucker
+*fuckers
+*fucking
+*fucked
+*fuckin
+f-word
+shit*
+*shit
+*shits
+*shitter
+*shitty
+bullshit*
+bull shit*
+horseshit
+shite
+cunt*
+cocksucker*
+cock sucker*
+motherfuck*
+mother fuck*
+
+# --- Moderate ---
+ass
+asses
+asshole*
+arsehole*
+arse
+bitch*
+bastard*
+damn*
+goddamn*
+god damn*
+goddam
+god dammit
+dammit
+damnit
+piss
+pissed
+pisses
+pissing
+prick
+pricks
+dick
+dicks
+dickhead*
+cock
+cocks
+pussy
+pussies
+tits
+titties
+twat*
+wanker*
+slut*
+whore*
+hell
+bloody hell
+bollocks
+crap
+crappy
+screw you
+
+# --- Religious exclamations (delete these if you don't want them filtered) ---
+jesus christ
+jesus fucking christ
+oh my god
+for god's sake
+for christ's sake
+holy christ
+
+# --- Slurs ---
+nigger*
+nigga*
+faggot*
+fag
+fags
+retard
+retards
+retarded
+spic
+spics
+chink
+chinks
+kike
+kikes
+tranny
+
+# --- Compounds ending in "ass" (listed one by one so "class" and "grass" stay safe) ---
+dumbass
+jackass
+badass
+smartass
+fatass
+kickass
+
+# --- Never filter ---
+!shitake
+!shiitake
+!hell-bent
+!hell-bound
